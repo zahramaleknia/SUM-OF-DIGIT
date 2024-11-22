@@ -13,3 +13,17 @@ def digit(n):
         if n%i==0 and first_number(i):
             t+=1
     return t
+def has_father(n):
+    y=sum(n)
+    x=digit(n)
+    return sum==digit
+try:
+    number=int(input("enter a number"))
+    for i in range(number):
+        number1=int(input("enter number"))
+        if has_father(number1):
+            print("yes")
+        else:
+            print("no")
+except ValueError:
+    print("enter a number")
